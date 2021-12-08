@@ -1,0 +1,16 @@
+﻿<Window x:Class="PhoneNumbers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneNumbers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid Background="Aqua">
+        <Button Content="Удалить номер" Width="169"  HorizontalAlignment="Left" Margin="117,416,0,72" Click="Button_Click_1"/>
+        <Button Margin="477,416,136,70" Content="Добавить номер" Click="Button_Click"/>
+        <TextBox Height="40" Width="200" TextChanged="TextBox_TextChanged" Name="hto" Margin="117,247,483,247"/>
+        <TextBox Height="40" Width="200" TextChanged="qwe_TextChanged" Name="qwe" Margin="477,247,123,247"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,90,0,0" Name="zxc"/>
+    </Grid>
+</Window>
